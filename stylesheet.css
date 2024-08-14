@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+    
+    
+
+.image{
+    width:100px ;
+
+       
+}
+.anchor-1,.anchor-2,.anchor-3,.anchor-4,.anchor-5,.anchor-6{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}
+.anchor-1{
+    margin-left: 20px;
+}
+.button{
+    display: flex;
+    padding: 0;
+    margin-top:10px ;
+    list-style: none;
+    gap: 10px;
+   font-family: sans-serif;
+   
+}
+.dropdown{
+    background-color: #fff;
+}
+.pavan{
+    display: flex;
+    justify-content: end;
+}
+.bi{
+    margin-top: 12px;
+    
+}   
+.bii{
+    margin-top:12px ;
+    margin-left: 20px;
+}
+.btn-1{
+    color:red ;
+    margin-top:10px ;
+}
+.bgrmg{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
