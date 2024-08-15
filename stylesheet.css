@@ -4,32 +4,30 @@
     width: 100%;
    
 }  
+.container-fluid{
+    padding: 0;
+}
 .image{
     width:100px ;
+    margin-left: 30px;
      
 }
-.anchor-1,.anchor-2,.anchor-3,.anchor-4,.anchor-5,.anchor-6{
+.anchor-1,.anchor-2,.anchor-3,.anchor-4,.anchor-5,.anchor-6, .anchor-7{
     text-decoration: none;
     color: black;
-    margin-right: 10px;
-
-}
-
+}  
 .anchor-1{
     margin-left: 20px;
 }
 .button{
     display: flex;
-    padding: 0;
     margin-top:10px ;
     list-style: none;
     font-family: sans-serif;
+    gap: 30px;
    
 }
-.dropdown{
-    background-color: #fff;
-    
-}
+
 .heading-22{
     display: flex;
     justify-content: end;
@@ -45,11 +43,14 @@
 .btn-1{
     color:red ;
     margin-top:10px ;
+    font-weight: 500;
 }
 .bgrmg{
     background-size: cover;
     background-position: center;
-    height: 100vh;   
+    height: 100vh; 
+    background-image: url(crm-banner.jpg);
+    background-attachment: fixed;
 }
 .heading-22{
     text-align: end;
@@ -62,4 +63,16 @@
 }
 .globe{
     margin-top:6px ;
+}
+.image-1{
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.to-ad{
+    display: flex;
+}
+
+.dropdown-1{
+    background-color: none;
 }
