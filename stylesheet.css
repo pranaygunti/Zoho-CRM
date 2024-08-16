@@ -38,34 +38,29 @@
     margin-top:10px ;
     font-weight: 500;
 }
-.bgr{
-    background-size: cover;
-    background-position: center;
-    height: 100vh; 
-    width: 100%;
-    background-attachment: fixed;
-}
-.heading-22{
-    text-align: end;
+.bgr-image{
+    background-image: url(crm-banner.jpg);
     
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 .search{
     background:none ;
     margin-left: 50px;
     margin-top: 6px;
 }
 .globe{
-    margin-top:6px ;
+    margin-top:6px
 }
-.image-1{
-    width: 100px;
-    margin-left: 70px;
-    margin-top: 20px;
-}
-.to-ad{
-    display: flex;
+
+.second-nav{
+    justify-content: end;
 }
 
 .dropdown-1{
     background-color: transparent;
+}
+img{
+    width: 100px;
 }
