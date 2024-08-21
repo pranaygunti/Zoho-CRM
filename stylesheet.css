@@ -40,7 +40,6 @@
 }
 .bgr-image{
     background-image: url(crm-banner.jpg);
-    
     background-attachment: fixed;
     background-size: cover;
 }
